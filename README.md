@@ -46,11 +46,11 @@ Actually more versions are in progress of design.
     ====================================================================    
     
     Arduino.h
-        WProgram.h     Copyright (c) 2017 PJRC.COM, LLC.
+        WProgram.h      Copyright (c) 2017 PJRC.COM, LLC.
             stdlib.h
             string.h
             math.h
-        pins_arduino.h
+        pins_arduino.h  Copyright (c) 2018 PJRC.COM, LLC.
     control_sgtl5000.h
     AudioStream.h
     filter_biquad.h
