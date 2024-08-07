@@ -106,8 +106,10 @@ Actually more versions are in progress of design.
         Arduino.h
         AudioStream.h
         SPI.h           GNU General Public License version 2 or the GNU Lesser General Public License version 2.1
+                        (Static Linking: Puoi linkare staticamente la libreria LGPL, ma in questo caso devi fornire i mezzi per permettere agli utenti di relinkare la tua applicazione con una versione modificata della libreria. Questo può significare fornire i file oggetto della tua applicazione o un altro meccanismo che permetta la relinkazione.)
             Arduino.h
     Wire.h              GNU Lesser General Public License
+                        (Static Linking: È permesso, ma richiede di fornire i mezzi per permettere agli utenti di relinkare la tua applicazione con una versione modificata della libreria. Questo potrebbe significare distribuire i file oggetto della tua applicazione o un altro meccanismo che permetta la relinkazione.)
         WireIMXRT.h     Copyright (c) 2014-2017, Paul Stoffregen, paul@pjrc.com
     EEPROM.h            Copyright (c) 2015 Paul Stoffregen <paul@pjrc.com>
         stddef.h
@@ -126,6 +128,7 @@ Actually more versions are in progress of design.
                         selection among a list of target devices, then similar target
                         devices manufactured by PJRC.COM must be included in the list of
                         target devices and selectable in the same manner.
+            
             inttypes.h  Copyright (C) 2006-2019 Free Software Foundation, Inc.
                         This file is part of the GNU ISO C++ Library.  This library is free
                         software; you can redistribute it and/or modify it under the
@@ -143,6 +146,7 @@ Actually more versions are in progress of design.
                         a copy of the GCC Runtime Library Exception along with this program;
                         see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
                         <http://www.gnu.org/licenses/>.
+                
                 tr1/cinttypes   Copyright (C) 2006-2019 Free Software Foundation, Inc.
                                 This file is part of the GNU ISO C++ Library....
 
@@ -166,6 +170,7 @@ Actually more versions are in progress of design.
                         SdFatConfig.h   MIT License
                             stdint.h
                             avr/io.h    Copyright (c) 2015 Paul Stoffregen <paul@pjrc.com>
+                                
                                 avr_emulation.h     Copyright (c) 2019 PJRC.COM, LLC.
                                                     Permission is hereby granted, free of charge, to any person obtaining
                                                     a copy of this software and associated documentation files (the
@@ -202,6 +207,7 @@ Actually more versions are in progress of design.
             ExFatLib/ExFatLib.h     MIT License
                 ExFatVolume.h   MIT License
                     ExFatFile.h MIT License
+                        
                         limits.h    Copyright (C) 1992-2019 Free Software Foundation, Inc.
                                     GCC is free software; you can redistribute it and/or modify it under
                                     the terms of the GNU General Public License as published by the Free
