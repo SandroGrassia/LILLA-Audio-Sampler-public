@@ -361,11 +361,11 @@ Actually more versions are in progress of design.
         + stdint.h  (see above)
     
     -  MIDI.h  Copyright (c) 2015 Francois Best (see above for licensing)
-            + midi_Defs.h         Copyright (c) 2015 Francois Best (see above for licensing)
-            + midi_Platform.h     Copyright (c) 2015 Francois Best (see above for licensing)
-            + midi_Settings.h     Copyright (c) 2015 Francois Best (see above for licensing)
-            + midi_Message.h      Copyright (c) 2015 Francois Best (see above for licensing)
-            + serialMIDI.h        Copyright (c) 2015 Francois Best (see above for licensing)
+        + midi_Defs.h         Copyright (c) 2015 Francois Best (see above for licensing)
+        + midi_Platform.h     Copyright (c) 2015 Francois Best (see above for licensing)
+        + midi_Settings.h     Copyright (c) 2015 Francois Best (see above for licensing)
+        + midi_Message.h      Copyright (c) 2015 Francois Best (see above for licensing)
+        + serialMIDI.h        Copyright (c) 2015 Francois Best (see above for licensing)
     
     - SPI.h   (see above)
     
