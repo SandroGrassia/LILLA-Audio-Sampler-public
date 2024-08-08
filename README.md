@@ -96,49 +96,49 @@ Actually more versions are in progress of design.
                         a copy of the GCC Runtime Library Exception along with this program;
                         see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
                         <http://www.gnu.org/licenses/>.
-            string.h    Copyright (C) 2002-2024 Free Software Foundation, Inc.
-            math.h      Copyright (C) 2006-2015 Free Software Foundation, Inc.
-        + pins_arduino.h    Copyright (c) 2018 PJRC.COM, LLC.
-            stdint.h    Copyright (C) 2002-2024 Free Software Foundation, Inc.
+            string.h    Copyright (C) 2002-2024 Free Software Foundation, Inc. (see above for licensing)
+            math.h      Copyright (C) 2006-2015 Free Software Foundation, Inc.  (see above for licensing)
+        + pins_arduino.h    Copyright (c) 2018 PJRC.COM, LLC.  (see above for licensing)
+            stdint.h    Copyright (C) 2002-2024 Free Software Foundation, Inc.  (see above for licensing)
     
-    - control_sgtl5000.h  Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
-                        Development of this audio library was funded by PJRC.COM, LLC by sales of
-                        Teensy and Audio Adaptor boards.  Please support PJRC's efforts to develop
-                        open source software by purchasing Teensy or other PJRC products.
-                        Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
-                        in the Software without restriction, including without limitation the rights
-                        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-                        copies of the Software, and to permit persons to whom the Software is
-                        furnished to do so, subject to the following conditions:
-                        The above copyright notice, development funding notice, and this permission
-                        notice shall be included in all copies or substantial portions of the Software.
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-                        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-                        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-                        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-                        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-                        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-                        THE SOFTWARE.
-        + AudioStream.h Copyright (c) 2017 PJRC.COM, LLC.
-            stdio.h     Copyright (C) 2002-2024 Free Software Foundation, Inc.
+    - control_sgtl5000.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+                            Development of this audio library was funded by PJRC.COM, LLC by sales of
+                            Teensy and Audio Adaptor boards.  Please support PJRC's efforts to develop
+                            open source software by purchasing Teensy or other PJRC products.
+                            Permission is hereby granted, free of charge, to any person obtaining a copy
+                            of this software and associated documentation files (the "Software"), to deal
+                            in the Software without restriction, including without limitation the rights
+                            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                            copies of the Software, and to permit persons to whom the Software is
+                            furnished to do so, subject to the following conditions:
+                            The above copyright notice, development funding notice, and this permission
+                            notice shall be included in all copies or substantial portions of the Software.
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                            THE SOFTWARE.
+        + AudioStream.h Copyright (c) 2017 PJRC.COM, LLC. (see above for licensing)
+            stdio.h     Copyright (C) 2002-2024 Free Software Foundation, Inc. (see above for licensing)
             string.h    (see above)
-        + AudioControl.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+        + AudioControl.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
             stdint.h    (see above)
     
     - AudioStream.h       (see above)
     
-    - filter_biquad.h     Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+    - filter_biquad.h     Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         + Arduino.h       (see above)
         + AudioStream.h   (see above)
     
-    - input_i2s.h         Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+    - input_i2s.h         Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         + Arduino.h       (see above)
         + AudioStream.h   (see above)
-        + DMAChannel.h    Copyright (c) 2017 PJRC.COM, LLC.
+        + DMAChannel.h    Copyright (c) 2017 PJRC.COM, LLC. (see above for licensing)
             imxrt.h     (??)
    
-    - memcpy_audio.h      Copyright (c) 2016 Frank Bösing
+    - memcpy_audio.h    Copyright (c) 2016 Frank Bösing
                         Permission is hereby granted, free of charge, to any person obtaining
                         a copy of this software and associated documentation files (the
                         "Software"), to deal in the Software without restriction, including
@@ -161,20 +161,20 @@ Actually more versions are in progress of design.
                         CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
                         SOFTWARE.
 
-    - mixer.h             Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+    - mixer.h             Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         + Arduino.h       (see above)
         + AudioStream.h   (see above)
     
-    - output_i2s.h        Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+    - output_i2s.h        Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         + Arduino.h       (see above)
         + AudioStream.h   (see above)
         + DMAChannel.h    (see above)
-            imxrt.h     (see above)
+            imxrt.h       (see above)
     
-    - spi_interrupt.h     Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+    - spi_interrupt.h     Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         + Arduino.h       (see above)
         + AudioStream.h   (see above)
-        + SPI.h           Copyright (c) 2010 by Cristian Maglie <c.maglie@bug.st>
+        + SPI.h         Copyright (c) 2010 by Cristian Maglie <c.maglie@bug.st>
                         Copyright (c) 2014 by Paul Stoffregen <paul@pjrc.com> (Transaction API)
                         Copyright (c) 2014 by Matthijs Kooijman <matthijs@stdin.nl> (SPISettings AVR)
                         SPI Master library for arduino.
@@ -186,7 +186,7 @@ Actually more versions are in progress of design.
             
             Arduino.h   (see above)
     
-    - Wire.h              Copyright (c) 2006 Nicholas Zambetti.  All right reserved.
+    - Wire.h            Copyright (c) 2006 Nicholas Zambetti.  All right reserved.
                         This library is free software; you can redistribute it and/or
                         modify it under the terms of the GNU Lesser General Public
                         License as published by the Free Software Foundation; either
@@ -200,16 +200,16 @@ Actually more versions are in progress of design.
                         Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
                         Modified 2012 by Todd Krein (todd@krein.org) to implement repeated starts
                         (Static Linking: È permesso, ma richiede di fornire i mezzi per permettere agli utenti di relinkare la tua applicazione con una versione modificata della libreria. Questo potrebbe significare distribuire i file oggetto della tua applicazione o un altro meccanismo che permetta la relinkazione.)
-        + WireIMXRT.h     Copyright (c) 2014-2017, Paul Stoffregen, paul@pjrc.com
+        + WireIMXRT.h     Copyright (c) 2014-2017, Paul Stoffregen, paul@pjrc.com (see above for licensing)
     
-    - EEPROM.h            Copyright (c) 2015 Paul Stoffregen <paul@pjrc.com>
+    - EEPROM.h            Copyright (c) 2015 Paul Stoffregen <paul@pjrc.com> (see above for licensing)
         + stddef.h        (see above)
         + stdint.h        (see above)
-        + avr_functions.h Copyright (c) 2017 PJRC.COM, LLC.           
-            inttypes.h  Copyright (C) 2006-2019 Free Software Foundation, Inc.                
-                tr1/cinttypes   Copyright (C) 2006-2019 Free Software Foundation, Inc.
+        + avr_functions.h Copyright (c) 2017 PJRC.COM, LLC. (see above for licensing)           
+            inttypes.h  Copyright (C) 2006-2019 Free Software Foundation, Inc. (see above for licensing)               
+                tr1/cinttypes   Copyright (C) 2006-2019 Free Software Foundation, Inc. (see above for licensing)
 
-    - SD.h    Copyright (c) 2020, Paul Stoffregen, paul@pjrc.com               
+    - SD.h    Copyright (c) 2020, Paul Stoffregen, paul@pjrc.com (see above for licensing)               
         + Arduino.h   (see above)
         + SdFat.h   Copyright (c) 2011-2021 Bill Greiman
                     MIT License
@@ -228,42 +228,42 @@ Actually more versions are in progress of design.
                     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
                     FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
                     DEALINGS IN THE SOFTWARE.                     
-            common/SysCall.h    Copyright (c) 2011-2021 Bill Greiman
+            common/SysCall.h    Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                 stdint.h    (see above)    
                 stddef.h    (see above)
-                SdFatConfig.h   Copyright (c) 2011-2021 Bill Greiman
+                SdFatConfig.h   Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                     stdint.h    (see above)
                     avr/io.h    (see above)
                     Arduino.h   (see above)
-                PrintBasic.h    Copyright (c) 2011-2021 Bill Greiman
-            SdCard/SdCard.h     Copyright (c) 2011-2021 Bill Greiman
-                SdioCard.h      Copyright (c) 2011-2021 Bill Greiman
+                PrintBasic.h    Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
+            SdCard/SdCard.h     Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
+                SdioCard.h      Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                     SysCall.h   (see above)      
                         stdint.h    (see above)
                         stddef.h    (see above)
                         SdFatConfig.h   (see above)
                             stdint.h    (see above)
-                            avr/io.h    Copyright (c) 2015 Paul Stoffregen <paul@pjrc.com>   
-                                avr_emulation.h     Copyright (c) 2019 PJRC.COM, LLC.
-                    SdCardInterface.h   Copyright (c) 2011-2021 Bill Greiman
-                        common/FsBlockDeviceInterface.h     Copyright (c) 2011-2021 Bill Greiman
+                            avr/io.h    Copyright (c) 2015 Paul Stoffregen <paul@pjrc.com> (see above for licensing)   
+                                avr_emulation.h     Copyright (c) 2019 PJRC.COM, LLC. (see above for licensing)
+                    SdCardInterface.h   Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
+                        common/FsBlockDeviceInterface.h     Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                             stdint.h    (see above)
                             stddef.h    (see above)
-                        SdCardInfo.h    Copyright (c) 2011-2021 Bill Greiman
+                        SdCardInfo.h    Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                             common/SysCall.h    (see above)
                                 stdint.h    (see above)
                                 stddef.h    (see above)
                                 SdFatConfig.h   (see above)
-                SdSpiCard.h     Copyright (c) 2011-2021 Bill Greiman
+                SdSpiCard.h     Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                     stddef.h    (see above)
                     common/SysCall.h    (see above)
                     SdCardInfo.h    (see above)
                     SdCardInterface.h   (see above)
-                    SpiDriver/SdSpiDriver.h     Copyright (c) 2011-2021 Bill Greiman
+                    SpiDriver/SdSpiDriver.h     Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                         common/SysCall.h    (see above)
-            ExFatLib/ExFatLib.h     Copyright (c) 2011-2021 Bill Greiman
-                ExFatVolume.h       Copyright (c) 2011-2021 Bill Greiman
-                    ExFatFile.h     Copyright (c) 2011-2021 Bill Greiman
+            ExFatLib/ExFatLib.h     Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
+                ExFatVolume.h       Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
+                    ExFatFile.h     Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                         limits.h    Copyright (C) 1992-2019 Free Software Foundation, Inc.
                                     This file is part of GCC. GCC is free software; you can redistribute
                                     it and/or modify it under the terms of the GNU General Public License
@@ -302,48 +302,48 @@ Actually more versions are in progress of design.
                                     CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
                                     ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
                                     POSSIBILITY OF SUCH DAMAGE.
-                        common/FsDateTime.h     Copyright (c) 2011-2021 Bill Greiman
+                        common/FsDateTime.h     Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                             stdint.h    (see above)
-                            CompileDateTime.h   Copyright (c) 2011-2021 Bill Greiman
+                            CompileDateTime.h   Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                             SysCall.h   (see above)
-                        common/FsApiConstants.h     Copyright (c) 2011-2021 Bill Greiman
+                        common/FsApiConstants.h     Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                             SysCall.h   (see above)
                             fcntl.h     (??)
-                        common/FmtNumber.h      Copyright (c) 2011-2021 Bill Greiman
+                        common/FmtNumber.h      Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                             math.h  (see above)  
                             stdint.h    (see above)
                             stddef.h    (see above)
-                        common/FsName.h     Copyright (c) 2011-2021 Bill Greiman
+                        common/FsName.h     Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                             SysCall.h   (see above)
                             stdint.h    (see above)
-                        ExFatPartition.h    Copyright (c) 2011-2021 Bill Greiman
+                        ExFatPartition.h    Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                             SysCall.h   (see above)
-                            common/FsBlockDevice.h  Copyright (c) 2011-2021 Bill Greiman
-                            common/FsCache.h        Copyright (c) 2011-2021 Bill Greiman
-                            common/FsStructs.h      Copyright (c) 2011-2021 Bill Greiman                      
-                ExFatFormatter.h    Copyright (c) 2011-2022 Bill Greiman
+                            common/FsBlockDevice.h  Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
+                            common/FsCache.h        Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
+                            common/FsStructs.h      Copyright (c) 2011-2021 Bill Greiman   (see above for licensing)                    
+                ExFatFormatter.h    Copyright (c) 2011-2022 Bill Greiman (see above for licensing)
                     common/FsBlockDevice.h  (see above)          
-            FatLib/FatLib.h     Copyright (c) 2011-2022Bill Greiman
-                FatVolume.h     Copyright (c) 2011-2022 Bill Greiman
-                FatFormatter.h  Copyright (c) 2011-2022 Bill Greiman 
-            FsLib/FsLib.h   Copyright (c) 2011-2022 Bill Greiman
-                FsVolume.h  Copyright (c) 2011-2022 Bill Greiman
-                    FsNew.h Copyright (c) 2011-2022 Bill Greiman
+            FatLib/FatLib.h     Copyright (c) 2011-2022Bill Greiman (see above for licensing)
+                FatVolume.h     Copyright (c) 2011-2022 Bill Greiman (see above for licensing)
+                FatFormatter.h  Copyright (c) 2011-2022 Bill Greiman (see above for licensing)
+            FsLib/FsLib.h   Copyright (c) 2011-2022 Bill Greiman (see above for licensing)
+                FsVolume.h  Copyright (c) 2011-2022 Bill Greiman (see above for licensing)
+                    FsNew.h Copyright (c) 2011-2022 Bill Greiman (see above for licensing)
                         stddef.h    (see above)
                         stdint.h    (see above)
                     FatLib/FatLib.h (see above)
                     ExFatLib/ExFatLib.h (see above)     
-                FsFile.h    Copyright (c) 2011-2024 Bill Greiman
+                FsFile.h    Copyright (c) 2011-2024 Bill Greiman (see above for licensing)
                     FsNew.h         (see above)
                     FatLib/FatLib.h (see above)
                     ExFatLib/ExFatLib.h (see above)
-                FsFormatter.h   Copyright (c) 2011-2022 Bill Greiman
+                FsFormatter.h   Copyright (c) 2011-2022 Bill Greiman (see above for licensing)
                     FatLib/FatLib.h     (see above)
                     ExFatLib/ExFatLib.h (see above) 
             sdios.h (see above)
-        + FS.h    Copyright (c) 2021 PJRC.COM, LLC.
+        + FS.h    Copyright (c) 2021 PJRC.COM, LLC. (see above for licensing)
 
-    - SerialFlash.h   Copyright (C) 2015, Paul Stoffregen, paul@pjrc.com
+    - SerialFlash.h   Copyright (C) 2015, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         + Arduino.h   (see above)
         + SPI.h     Copyright (c) 2010 by Cristian Maglie <c.maglie@bug.st>
                     Copyright (c) 2014 by Paul Stoffregen <paul@pjrc.com> (Transaction API)
@@ -355,21 +355,21 @@ Actually more versions are in progress of design.
                     published by the Free Software Foundation.
             Arduino.h       (see above)
             DMAChannel.h    (see above)
-            EventResponder.h    Copyright 2017 Paul Stoffregen
+            EventResponder.h    Copyright 2017 Paul Stoffregen (see above for licensing)
 
-    - dspinst.h   Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+    - dspinst.h   Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         + stdint.h  (see above)
     
-   -  MIDI.h  Copyright (c) 2015 Francois Best
-            + midi_Defs.h         Copyright (c) 2015 Francois Best
-            + midi_Platform.h     Copyright (c) 2015 Francois Best
-            + midi_Settings.h     Copyright (c) 2015 Francois Best
-            + midi_Message.h      Copyright (c) 2015 Francois Best
-            + serialMIDI.h        Copyright (c) 2015 Francois Best
+    -  MIDI.h  Copyright (c) 2015 Francois Best (see above for licensing)
+            + midi_Defs.h         Copyright (c) 2015 Francois Best (see above for licensing)
+            + midi_Platform.h     Copyright (c) 2015 Francois Best (see above for licensing)
+            + midi_Settings.h     Copyright (c) 2015 Francois Best (see above for licensing)
+            + midi_Message.h      Copyright (c) 2015 Francois Best (see above for licensing)
+            + serialMIDI.h        Copyright (c) 2015 Francois Best (see above for licensing)
     
     - SPI.h   (see above)
     
-    - Adafruit_GFX.h      Copyright (c) 2012 Adafruit Industries.  All rights reserved.
+    - Adafruit_GFX.h    Copyright (c) 2012 Adafruit Industries.  All rights reserved.
                         Redistribution and use in source and binary forms, with or without
                         modification, are permitted provided that the following conditions are met:
                         - Redistributions of source code must retain the above copyright notice,
@@ -392,4 +392,4 @@ Actually more versions are in progress of design.
     - Adafruit_ILI9341.h  Copyright (c) 2012 Adafruit Industries.  All rights reserved.
                         BSD license, all text here must be included in any redistribution.
 
-    - output_noiseshaped_pwm.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+    - output_noiseshaped_pwm.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com  (see above for licensing)
