@@ -42,7 +42,7 @@ Actually more versions are in progress of design.
 
 
     ====================================================================
-        Original or modified classes included with licensing notes
+        Original or modified libraries/classes and licensing notes
     ====================================================================    
     
     - Arduino.h     Header file
