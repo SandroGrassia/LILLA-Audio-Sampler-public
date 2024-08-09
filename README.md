@@ -42,21 +42,10 @@ Actually more versions are in progress of design.
 
 
     ====================================================================
-                            CREDITS AND LICENSING
+        Original or modified classes included with licensing notes
     ====================================================================    
     
-    - Arduino.h     Copyright (c) 2005-2013 Arduino Team.  All right reserved.
-                    This library is free software; you can redistribute it and/or
-                    modify it under the terms of the GNU Lesser General Public
-                    License as published by the Free Software Foundation; either
-                    version 2.1 of the License, or (at your option) any later version.
-                    This library is distributed in the hope that it will be useful,
-                    but WITHOUT ANY WARRANTY; without even the implied warranty of
-                    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-                    Lesser General Public License for more details.
-                    You should have received a copy of the GNU Lesser General Public
-                    License along with this library; if not, write to the Free Software
-                    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+    - Arduino.h     Header file
         + WProgram.h    Copyright (c) 2017 PJRC.COM, LLC.
                         Permission is hereby granted, free of charge, to any person obtaining
                         a copy of this software and associated documentation files (the
@@ -101,6 +90,9 @@ Actually more versions are in progress of design.
         + pins_arduino.h    Copyright (c) 2018 PJRC.COM, LLC.  (see above for licensing)
             stdint.h    Copyright (C) 2002-2024 Free Software Foundation, Inc.  (see above for licensing)
     
+    - DMAChannel    Copyright (c) 2017 PJRC.COM, LLC.
+        + imxrt.h   ARM documentation
+
     - control_sgtl5000.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
                             Development of this audio library was funded by PJRC.COM, LLC by sales of
                             Teensy and Audio Adaptor boards.  Please support PJRC's efforts to develop
@@ -126,8 +118,6 @@ Actually more versions are in progress of design.
         + AudioControl.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
             stdint.h    (see above)
     
-    - AudioStream.h       (see above)
-    
     - filter_biquad.h     Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         + Arduino.h       (see above)
         + AudioStream.h   (see above)
@@ -136,7 +126,7 @@ Actually more versions are in progress of design.
         + Arduino.h       (see above)
         + AudioStream.h   (see above)
         + DMAChannel.h    Copyright (c) 2017 PJRC.COM, LLC. (see above for licensing)
-            imxrt.h     (??)
+            imxrt.h     (see above)
    
     - memcpy_audio.h    Copyright (c) 2016 Frank Bösing
                         Permission is hereby granted, free of charge, to any person obtaining
@@ -171,20 +161,21 @@ Actually more versions are in progress of design.
         + DMAChannel.h    (see above)
             imxrt.h       (see above)
     
+    - record_queue.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+        + Arduino.h       (see above)
+        + AudioStream.h   (see above)
+
     - spi_interrupt.h     Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         + Arduino.h       (see above)
         + AudioStream.h   (see above)
         + SPI.h         Copyright (c) 2010 by Cristian Maglie <c.maglie@bug.st>
                         Copyright (c) 2014 by Paul Stoffregen <paul@pjrc.com> (Transaction API)
                         Copyright (c) 2014 by Matthijs Kooijman <matthijs@stdin.nl> (SPISettings AVR)
-                        SPI Master library for arduino.
                         This file is free software; you can redistribute it and/or modify 
                         it under the terms of either the GNU General Public License version 2
                         or the GNU Lesser General Public License version 2.1, both as
                         published by the Free Software Foundation.
                         (Static Linking: Puoi linkare staticamente la libreria LGPL, ma in questo caso devi fornire i mezzi per permettere agli utenti di relinkare la tua applicazione con una versione modificata della libreria. Questo può significare fornire i file oggetto della tua applicazione o un altro meccanismo che permetta la relinkazione.)
-            
-            Arduino.h   (see above)
     
     - Wire.h            Copyright (c) 2006 Nicholas Zambetti.  All right reserved.
                         This library is free software; you can redistribute it and/or
@@ -389,7 +380,10 @@ Actually more versions are in progress of design.
                         ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
                         POSSIBILITY OF SUCH DAMAGE.
 
-    - Adafruit_ILI9341.h  Copyright (c) 2012 Adafruit Industries.  All rights reserved.
-                        BSD license, all text here must be included in any redistribution.
+    - Adafruit_ILI9341.h    Copyright (c) 2012 Adafruit Industries.  All rights reserved.
+                            BSD license, all text here must be included in any redistribution.
 
     - output_noiseshaped_pwm.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com  (see above for licensing)
+        + Arduino.h       (see above)
+        + AudioStream.h   (see above)
+        + DMAChannel.h    (see above)
