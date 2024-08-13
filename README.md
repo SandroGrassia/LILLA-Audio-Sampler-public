@@ -95,7 +95,7 @@ Actually more versions are in progress of design.
 
                         mia annotazione:
                         Licenza GNU GPL è una licenza libera, che permette di redistribuire e/o modificare il software, ma richiede che le stesse libertà siano mantenute per chi riceve il software. In altre parole il software modificato deve mantenere
-                        la stessa licenza GPL.
+                        la stessa licenza GPL. Se il progetto utilizza codice coperto dalla licenza GPLv3 con l'eccezione della GCC Runtime Library Exception 3.1, posso distribuire il software come closed source senza essere obbligato a rilasciare il codice sorgente del progetto.
 
 
             3 string.h  Copyright (C) 2002-2024 Free Software Foundation, Inc. (see above for licensing)
@@ -321,8 +321,6 @@ Actually more versions are in progress of design.
 
                                     Modifiche alle Librerie: Se modifichi le librerie di runtime di GCC, le modifiche devono essere rilasciate sotto la GPL. Tuttavia, il tuo software che si collega alle librerie (senza modificarle) può rimanere closed source.
 
-
-
                         6 string.h  Copyright (c) 2006 The NetBSD Foundation, Inc. All rights reserved.
                                     This code is derived from software contributed to The NetBSD Foundation
                                     by Christos Zoulas.
@@ -470,13 +468,11 @@ Actually more versions are in progress of design.
                             * please support Adafruit and open-source hardware by purchasing
                             * products from Adafruit!
                             *
-                            *
                             * This library depends on <a href="https://github.com/adafruit/Adafruit_GFX">
                             * Adafruit_GFX</a> being present on your system. Please make sure you have
                             * installed the latest version before using this library.
                             *
                             * Written by Limor "ladyada" Fried for Adafruit Industries.
-                            *
                             * BSD license, all text here must be included in any redistribution.
 
     1 output_noiseshaped_pwm.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com  (see above for licensing)
