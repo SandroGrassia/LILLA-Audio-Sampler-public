@@ -359,9 +359,6 @@ Actually more versions are in progress of design.
     1 SerialFlash.h Copyright (C) 2015, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         2 Arduino.h (see above)
         2 SPI.h     (see above)
-            3 Arduino.h     (see above)
-            3 DMAChannel.h  (see above)
-            3 EventResponder.h  Copyright 2017 Paul Stoffregen (see above for licensing)
 
     1 dspinst.h Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         2 stdint.h  (see above)
@@ -397,37 +394,63 @@ Actually more versions are in progress of design.
                         devo mantenere intatti gli avvisi di copyright e le condizioni della licenza, e assicurare
                         che queste informazioni siano incluse nella documentazione o nei materiali distribuiti con il software.
 
+        2 Arduino.h (see above)
+        2 Print.h   Copyright (c) 2017 PJRC.COM, LLC. (see above for licensing)
+        2 gfxfont.h
+        2 Adafruit_I2CDevice.h
+        2 Adafruit_SPIDevice.h
+
     1 Adafruit_ILI9341.h    Copyright (c) 2012 Adafruit Industries.  All rights reserved.
                             
-                            * @file Adafruit_ILI9341.h
-                            *
-                            * This is the documentation for Adafruit's ILI9341 driver for the
-                            * Arduino platform.
-                            *
-                            * This library works with the Adafruit 2.8" Touch Shield V2 (SPI)
-                            *    http://www.adafruit.com/products/1651
-                            * Adafruit 2.4" TFT LCD with Touchscreen Breakout w/MicroSD Socket - ILI9341
-                            *    https://www.adafruit.com/product/2478
-                            * 2.8" TFT LCD with Touchscreen Breakout Board w/MicroSD Socket - ILI9341
-                            *    https://www.adafruit.com/product/1770
-                            * 2.2" 18-bit color TFT LCD display with microSD card breakout - ILI9340
-                            *    https://www.adafruit.com/product/1770
-                            * TFT FeatherWing - 2.4" 320x240 Touchscreen For All Feathers
-                            *    https://www.adafruit.com/product/3315
-                            *
-                            * These displays use SPI to communicate, 4 or 5 pins are required
-                            * to interface (RST is optional).
-                            *
-                            * Adafruit invests time and resources providing this open source code,
-                            * please support Adafruit and open-source hardware by purchasing
-                            * products from Adafruit!
-                            *
-                            * This library depends on <a href="https://github.com/adafruit/Adafruit_GFX">
-                            * Adafruit_GFX</a> being present on your system. Please make sure you have
-                            * installed the latest version before using this library.
-                            *
-                            * Written by Limor "ladyada" Fried for Adafruit Industries.
-                            * BSD license, all text here must be included in any redistribution.
+                            @file Adafruit_ILI9341.h
+                            This is the documentation for Adafruit's ILI9341 driver for the
+                            Arduino platform.
+                            This library works with the Adafruit 2.8" Touch Shield V2 (SPI)
+                            http://www.adafruit.com/products/1651
+                            Adafruit 2.4" TFT LCD with Touchscreen Breakout w/MicroSD Socket - ILI9341
+                            https://www.adafruit.com/product/2478
+                            2.8" TFT LCD with Touchscreen Breakout Board w/MicroSD Socket - ILI9341
+                            https://www.adafruit.com/product/1770
+                            2.2" 18-bit color TFT LCD display with microSD card breakout - ILI9340
+                            https://www.adafruit.com/product/1770
+                            TFT FeatherWing - 2.4" 320x240 Touchscreen For All Feathers
+                            https://www.adafruit.com/product/3315
+                            These displays use SPI to communicate, 4 or 5 pins are required
+                            to interface (RST is optional).
+                            Adafruit invests time and resources providing this open source code,
+                            please support Adafruit and open-source hardware by purchasing
+                            products from Adafruit!
+                            This library depends on <a href="https://github.com/adafruit/Adafruit_GFX">
+                            Adafruit_GFX</a> being present on your system. Please make sure you have
+                            installed the latest version before using this library.
+                            Written by Limor "ladyada" Fried for Adafruit Industries.
+                            BSD license, all text here must be included in any redistribution.
+
+                            notes:
+                            Chi modifichi un programma protetto da licenze BSD può ridistribuirlo usando la stessa o qualunque altra licenza (anche non libera), senza avere l'obbligo di redistribuire le modifiche apportate al codice sorgente. 
+
+        2 Adafruit_GFX.h    (see above)
+        2 Arduino.h (see above)
+        2 Print.h (see above)
+        2 Adafruit_SPITFT.h
+                                @file Adafruit_SPITFT.h
+                                Part of Adafruit's GFX graphics library. Originally this class was
+                                written to handle a range of color TFT displays connected via SPI,
+                                but over time this library and some display-specific subclasses have
+                                mutated to include some color OLEDs as well as parallel-interfaced
+                                displays. The name's been kept for the sake of older code.
+
+                                Adafruit invests time and resources providing this open source code,
+                                please support Adafruit and open-source hardware by purchasing
+                                products from Adafruit!
+                                Written by Limor "ladyada" Fried for Adafruit Industries,
+                                with contributions from the open source community.
+                                BSD license, all text here must be included in any redistribution.
+
+                                notes:
+                                Chi modifichi un programma protetto da licenze BSD può ridistribuirlo usando la stessa o qualunque altra licenza (anche non libera), senza avere l'obbligo di redistribuire le modifiche apportate al codice sorgente. 
+
+        2 SPI.h (see above)
 
     1 memcpy_audio.h    Copyright (c) 2016 Frank Bösing
                         Permission is hereby granted, free of charge, to any person obtaining
@@ -464,10 +487,12 @@ Actually more versions are in progress of design.
         
     1 mixer.h   Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
                 notes: class modified
+
         2 Arduino.h         (see above)
         2 AudioStream.h     (see above)
 
     1 filter_biquad.h   Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
                         notes: class modified
+
         2 Arduino.h         (see above)
         2 AudioStream.h     (see above)
