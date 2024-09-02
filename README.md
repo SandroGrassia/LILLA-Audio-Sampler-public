@@ -43,8 +43,16 @@ Actually more versions are in progress of design.
 
     ========================================================================
     (Original or modified) included libraries/classes, with licensing notes.
-    ========================================================================    
-    
+    ========================================================================   
+
+    This text desrcibe the full #include tree for LILLA code.
+    Each class/library mentioned is preceded by a number representing the level of dependency:
+    1: explicitely included in LILLA code
+    2: included in a level-1 element
+    3: included in a level-2 element
+    and so on.
+
+
     1 Arduino.h     Header file
         2 WProgram.h    Copyright (c) 2017 PJRC.COM, LLC.
                         Permission is hereby granted, free of charge, to any person obtaining
@@ -130,11 +138,11 @@ Actually more versions are in progress of design.
                             1. Il codice è pubblicato in forma di main e classi compilate; i sorgenti non sono pubblici,
                             non ci sono commenti leggibili
 
-        2 AudioStream.h Copyright (c) 2017 PJRC.COM, LLC. (see above for licensing)
-            stdio.h     Copyright (C) 2002-2024 Free Software Foundation, Inc. (see above for licensing)
-            string.h    (see above)
+        2 AudioStream.h     Copyright (c) 2017 PJRC.COM, LLC. (see above for licensing)
+            3 stdio.h       Copyright (C) 2002-2024 Free Software Foundation, Inc. (see above for licensing)
+            3 string.h      (see above)
         2 AudioControl.h    Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
-            stdint.h    (see above)
+            3 stdint.h      (see above)
     
     1 input_i2s.h       Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com (see above for licensing)
         2 Arduino.h     (see above)
