@@ -103,8 +103,11 @@ Actually more versions are in progress of design.
                         <http://www.gnu.org/licenses/>.
 
                         notes:
-                        Licenza GNU GPL è una licenza libera, che permette di redistribuire e/o modificare il software, ma richiede che le stesse libertà siano mantenute per chi riceve il software. In altre parole il software modificato deve mantenere
-                        la stessa licenza GPL. Se il progetto utilizza codice coperto dalla licenza GPLv3 con l'eccezione della GCC Runtime Library Exception 3.1, posso distribuire il software come closed source senza essere obbligato a rilasciare il codice sorgente del progetto.
+                        Licenza GNU GPL è una licenza libera, che permette di redistribuire e/o modificare il software, ma
+                        richiede che le stesse libertà siano mantenute per chi riceve il software. In altre parole il software
+                        modificato deve mantenere la stessa licenza GPL. Se il progetto utilizza codice coperto dalla licenza
+                        GPLv3 con l'eccezione della GCC Runtime Library Exception 3.1, posso distribuire il software come
+                        closed source senza essere obbligato a rilasciare il codice sorgente del progetto.
 
 
             3 string.h  Copyright (C) 2002-2024 Free Software Foundation, Inc. (see above for licensing)
@@ -296,28 +299,32 @@ Actually more versions are in progress of design.
                                     <http://www.gnu.org/licenses/>.
 
                                     notes:
-                                    il software è concesso in licenza sotto la GNU General Public License (GPL) versione 3 con l'aggiunta
-                                    di un'eccezione specifica, nota come GCC Runtime Library Exception, versione 3.1. Questa eccezione è
-                                    importante perché modifica alcuni degli obblighi imposti dalla GPL, rendendo più flessibile l'utilizzo
-                                    del software in progetti closed source.
-                                    L'eccezione della Runtime Library di GCC è progettata per consentire l'uso delle librerie di runtime di
-                                    GCC in un contesto più ampio senza richiedere che tutto il software collegato a tali librerie sia rilasciato
-                                    sotto la GPL. In altre parole, se utilizzi una libreria di runtime di GCC coperta da questa eccezione in un
-                                    progetto closed source, non sei obbligato a rilasciare il codice sorgente del tuo progetto sotto la GPL, a
-                                    condizione di rispettare determinate condizioni.
+                                    il software è concesso in licenza sotto la GNU General Public License (GPL) versione 3
+                                    con l'aggiunta di un'eccezione specifica, nota come GCC Runtime Library Exception,
+                                    versione 3.1. Questa eccezione è importante perché modifica alcuni degli obblighi imposti
+                                    dalla GPL, rendendo più flessibile l'utilizzo del software in progetti closed source.
+                                    L'eccezione della Runtime Library di GCC è progettata per consentire l'uso delle librerie
+                                    di runtime di GCC in un contesto più ampio senza richiedere che tutto il software collegato
+                                    a tali librerie sia rilasciato sotto la GPL. In altre parole, se utilizzi una libreria di
+                                    runtime di GCC coperta da questa eccezione in un progetto closed source, non sei obbligato
+                                    a rilasciare il codice sorgente del tuo progetto sotto la GPL, a condizione di rispettare
+                                    determinate condizioni.
                                     
                                     Dettagli dell'Eccezione:
-                                    Linking Permesso: La GCC Runtime Library Exception permette di collegare dinamicamente o staticamente il
-                                    proprio software con le librerie di runtime di GCC senza che l'intero software finale debba essere rilasciato
-                                    sotto GPL. Questo significa che puoi utilizzare le librerie di runtime di GCC in un progetto closed source
-                                    senza dover rendere open source l'intero progetto.
+                                    Linking Permesso: La GCC Runtime Library Exception permette di collegare dinamicamente o
+                                    staticamente il proprio software con le librerie di runtime di GCC senza che l'intero
+                                    software finale debba essere rilasciato sotto GPL. Questo significa che puoi utilizzare
+                                    le librerie di runtime di GCC in un progetto closed source senza dover rendere open source
+                                    l'intero progetto.
                                     
-                                    Distribuzione: Quando distribuisci il software che include le librerie di runtime di GCC, non sei obbligato
-                                    a rilasciare il codice sorgente del tuo progetto principale sotto GPL. Tuttavia, devi comunque rispettare i
-                                    termini della GPL per la distribuzione delle librerie stesse, mantenendo gli avvisi di copyright e la licenza.
+                                    Distribuzione: Quando distribuisci il software che include le librerie di runtime di GCC,
+                                    non sei obbligato a rilasciare il codice sorgente del tuo progetto principale sotto GPL.
+                                    Tuttavia, devi comunque rispettare i termini della GPL per la distribuzione delle librerie
+                                    stesse, mantenendo gli avvisi di copyright e la licenza.
 
-                                    Modifiche alle Librerie: Se modifichi le librerie di runtime di GCC, le modifiche devono essere rilasciate
-                                    sotto la GPL. Tuttavia, il tuo software che si collega alle librerie (senza modificarle) può rimanere closed source.
+                                    Modifiche alle Librerie: Se modifichi le librerie di runtime di GCC, le modifiche devono
+                                    essere rilasciate sotto la GPL. Tuttavia, il tuo software che si collega alle librerie
+                                    (senza modificarle) può rimanere closed source.
 
                         6 string.h  Copyright (c) 2006 The NetBSD Foundation, Inc. All rights reserved.
                                     This code is derived from software contributed to The NetBSD Foundation
@@ -343,8 +350,9 @@ Actually more versions are in progress of design.
                                     POSSIBILITY OF SUCH DAMAGE.
 
                                     notes:
-                                    devo mantenere intatti gli avvisi di copyright e le condizioni della licenza sia nel codice sorgente che nei binari
-                                    distribuiti, e assicurarti che queste informazioni siano incluse nella documentazione o nei materiali distribuiti con il software
+                                    devo mantenere intatti gli avvisi di copyright e le condizioni della licenza sia nel codice 
+                                    sorgente che nei binari distribuiti, e assicurarti che queste informazioni siano incluse
+                                    nella documentazione o nei materiali distribuiti con il software.
 
                         6 common/FsDateTime.h   Copyright (c) 2011-2021 Bill Greiman (see above for licensing)
                             7 stdint.h              (see above)
@@ -422,8 +430,9 @@ Actually more versions are in progress of design.
                         POSSIBILITY OF SUCH DAMAGE.
 
                         notes:
-                        devo mantenere intatti gli avvisi di copyright e le condizioni della licenza, e assicurare
-                        che queste informazioni siano incluse nella documentazione o nei materiali distribuiti con il software.
+                        devo mantenere intatti gli avvisi di copyright e le condizioni della licenza, e
+                        assicurare che queste informazioni siano incluse nella documentazione o nei materiali
+                        distribuiti con il software.
 
         2 Arduino.h (see above)
         2 Print.h   Copyright (c) 2017 PJRC.COM, LLC. (see above for licensing)
@@ -458,8 +467,9 @@ Actually more versions are in progress of design.
                             BSD license, all text here must be included in any redistribution.
 
                             notes:
-                            Chi modifica un programma protetto da licenze BSD può ridistribuirlo usando la stessa o qualunque altra
-                            licenza (anche non libera), senza avere l'obbligo di redistribuire le modifiche apportate al codice sorgente. 
+                            Chi modifica un programma protetto da licenze BSD può ridistribuirlo usando la stessa
+                            o qualunque altra licenza (anche non libera), senza avere l'obbligo di redistribuire
+                            le modifiche apportate al codice sorgente. 
 
         2 Adafruit_GFX.h    (see above)
         2 Arduino.h (see above)
@@ -480,8 +490,10 @@ Actually more versions are in progress of design.
                                 BSD license, all text here must be included in any redistribution.
 
                                 notes:
-                                Chi modifica un programma protetto da licenze BSD può ridistribuirlo usando la stessa o qualunque altra
-                                licenza (anche non libera), senza avere l'obbligo di redistribuire le modifiche apportate al codice sorgente. 
+                                Chi modifica un programma protetto da licenze BSD può ridistribuirlo usando la stessa
+                                o qualunque altra licenza (anche non libera), senza avere l'obbligo di redistribuire
+                                le modifiche apportate al codice sorgente.
+
         2 SPI.h (see above)
 
     1 memcpy_audio.h    Copyright (c) 2016 Frank Bösing
